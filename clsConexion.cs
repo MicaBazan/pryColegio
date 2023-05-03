@@ -10,7 +10,7 @@ namespace pryColegio
     {
         public static string getCadena()
         {
-            string cadena = "provider=microsoft.jet.oledb.4.0;data source=CLIMA.mdb";
+            string cadena = "provider=microsoft.jet.oledb.4.0;data source=COLEGIO.mdb";
             return cadena;
         }
     }
