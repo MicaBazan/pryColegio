@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="clsAlumno.cs" />
     <Compile Include="clsBarrio.cs" />
+    <Compile Include="clsConexion.cs" />
     <Compile Include="clsFruta.cs" />
     <Compile Include="clsGustan.cs" />
     <Compile Include="frmNuevoBarrio.cs">
