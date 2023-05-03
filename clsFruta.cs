@@ -16,6 +16,21 @@ namespace pryColegio
         private OleDbDataAdapter adaptador;
         private DataTable tabla;
 
+        private int fruta;
+        private string nombre;
+
+        public int Fruta
+        {
+            get { return fruta; }
+            set { fruta = value; }
+        }
+
+        public string Nombre
+        {
+            get { return nombre; }
+            set { nombre = value; }
+        }
+
         public clsFruta()
         {
             cadena = clsConexion.getCadena();
@@ -28,11 +43,35 @@ namespace pryColegio
             adaptador = new OleDbDataAdapter(comando);
             tabla = new DataTable();
             adaptador.Fill(tabla);
+
+            DataColumn[] vector = new DataColumn[1];
+            vector[0] = tabla.Columns["fruta"];
+            tabla.PrimaryKey = vector;
         }
 
         public DataTable getFrutas()
         {
             return tabla;
+        }
+
+        public void grabar()
+        {
+            DataRow filaBusca = tabla.Rows.Find(fruta);
+
+            if (filaBusca is null)
+            {
+                DataRow fila = tabla.NewRow();
+                fila["fruta"] = fruta;
+                fila["nombre"] = nombre;
+                tabla.Rows.Add(fila);
+                OleDbCommandBuilder cb = new OleDbCommandBuilder(adaptador);
+                adaptador.Update(tabla);
+            }
+            else
+            {
+                fruta = 0;
+                nombre = "";
+            }
         }
     }
 }

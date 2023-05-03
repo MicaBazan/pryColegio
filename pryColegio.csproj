@@ -51,6 +51,12 @@
     <Compile Include="clsConexion.cs" />
     <Compile Include="clsFruta.cs" />
     <Compile Include="clsGustan.cs" />
+    <Compile Include="frmNuevaFruta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNuevaFruta.Designer.cs">
+      <DependentUpon>frmNuevaFruta.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmNuevoBarrio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +71,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmNuevaFruta.resx">
+      <DependentUpon>frmNuevaFruta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmNuevoBarrio.resx">
       <DependentUpon>frmNuevoBarrio.cs</DependentUpon>
     </EmbeddedResource>

@@ -22,5 +22,11 @@ namespace pryColegio
             frmNuevoBarrio barrio = new frmNuevoBarrio();
             barrio.ShowDialog();
         }
+
+        private void nuevaFrutaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNuevaFruta fruta = new frmNuevaFruta();
+            fruta.ShowDialog();
+        }
     }
 }

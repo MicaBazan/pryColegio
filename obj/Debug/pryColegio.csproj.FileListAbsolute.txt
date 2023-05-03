@@ -9,3 +9,4 @@ C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.csproj.Generate
 C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.csproj.CoreCompileInputs.cache
 C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.exe
 C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.pdb
+C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.frmNuevaFruta.resources

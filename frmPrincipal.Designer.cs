@@ -34,8 +34,8 @@ namespace pryColegio
             this.nuevoBarrioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nuevaFrutaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nuevoAlumnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.queFrutasLeGustaAlAlumnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultarAlumnoPorDNIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultarQuéFrutasLeGustanAlAlumnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.verTodosLosAlumnosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -85,12 +85,19 @@ namespace pryColegio
             this.nuevaFrutaToolStripMenuItem.Name = "nuevaFrutaToolStripMenuItem";
             this.nuevaFrutaToolStripMenuItem.Size = new System.Drawing.Size(290, 26);
             this.nuevaFrutaToolStripMenuItem.Text = "Nueva Fruta";
+            this.nuevaFrutaToolStripMenuItem.Click += new System.EventHandler(this.nuevaFrutaToolStripMenuItem_Click);
             // 
             // nuevoAlumnoToolStripMenuItem
             // 
             this.nuevoAlumnoToolStripMenuItem.Name = "nuevoAlumnoToolStripMenuItem";
             this.nuevoAlumnoToolStripMenuItem.Size = new System.Drawing.Size(290, 26);
             this.nuevoAlumnoToolStripMenuItem.Text = "Nuevo Alumno";
+            // 
+            // queFrutasLeGustaAlAlumnoToolStripMenuItem
+            // 
+            this.queFrutasLeGustaAlAlumnoToolStripMenuItem.Name = "queFrutasLeGustaAlAlumnoToolStripMenuItem";
+            this.queFrutasLeGustaAlAlumnoToolStripMenuItem.Size = new System.Drawing.Size(290, 26);
+            this.queFrutasLeGustaAlAlumnoToolStripMenuItem.Text = "Qué Frutas le gusta al Alumno";
             // 
             // consultasToolStripMenuItem
             // 
@@ -109,12 +116,6 @@ namespace pryColegio
             this.consultasToolStripMenuItem.Name = "consultasToolStripMenuItem";
             this.consultasToolStripMenuItem.Size = new System.Drawing.Size(86, 24);
             this.consultasToolStripMenuItem.Text = "Consultas";
-            // 
-            // queFrutasLeGustaAlAlumnoToolStripMenuItem
-            // 
-            this.queFrutasLeGustaAlAlumnoToolStripMenuItem.Name = "queFrutasLeGustaAlAlumnoToolStripMenuItem";
-            this.queFrutasLeGustaAlAlumnoToolStripMenuItem.Size = new System.Drawing.Size(290, 26);
-            this.queFrutasLeGustaAlAlumnoToolStripMenuItem.Text = "Qué Frutas le gusta al Alumno";
             // 
             // consultarAlumnoPorDNIToolStripMenuItem
             // 
