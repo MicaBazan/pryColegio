@@ -94,7 +94,7 @@ namespace pryColegio
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.lblCodigo);
             this.Name = "frmNuevaFruta";
-            this.Text = "frmNuevaFruta";
+            this.Text = "Nueva Fruta";
             this.ResumeLayout(false);
             this.PerformLayout();
 

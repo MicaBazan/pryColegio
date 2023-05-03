@@ -57,6 +57,12 @@
     <Compile Include="frmNuevaFruta.Designer.cs">
       <DependentUpon>frmNuevaFruta.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmNuevoAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNuevoAlumno.Designer.cs">
+      <DependentUpon>frmNuevoAlumno.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmNuevoBarrio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +79,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmNuevaFruta.resx">
       <DependentUpon>frmNuevaFruta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevoAlumno.resx">
+      <DependentUpon>frmNuevoAlumno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmNuevoBarrio.resx">
       <DependentUpon>frmNuevoBarrio.cs</DependentUpon>
