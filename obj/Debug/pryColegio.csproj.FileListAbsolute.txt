@@ -1,0 +1,11 @@
+C:\Users\micab.MICA\Source\Repos\pryColegio\bin\Debug\pryColegio.exe.config
+C:\Users\micab.MICA\Source\Repos\pryColegio\bin\Debug\pryColegio.exe
+C:\Users\micab.MICA\Source\Repos\pryColegio\bin\Debug\pryColegio.pdb
+C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.csproj.AssemblyReference.cache
+C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.frmNuevoBarrio.resources
+C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.frmPrincipal.resources
+C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.Properties.Resources.resources
+C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.csproj.GenerateResource.cache
+C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.csproj.CoreCompileInputs.cache
+C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.exe
+C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.pdb

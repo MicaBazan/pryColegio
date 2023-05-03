@@ -16,5 +16,11 @@ namespace pryColegio
         {
             InitializeComponent();
         }
+
+        private void nuevoBarrioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNuevoBarrio barrio = new frmNuevoBarrio();
+            barrio.ShowDialog();
+        }
     }
 }
