@@ -28,5 +28,11 @@ namespace pryColegio
             frmNuevaFruta fruta = new frmNuevaFruta();
             fruta.ShowDialog();
         }
+
+        private void nuevoAlumnoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNuevoAlumno alumno = new frmNuevoAlumno();
+            alumno.ShowDialog();
+        }
     }
 }

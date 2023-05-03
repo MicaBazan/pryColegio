@@ -156,6 +156,7 @@ namespace pryColegio
             // 
             // cbBarrio
             // 
+            this.cbBarrio.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbBarrio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbBarrio.FormattingEnabled = true;
             this.cbBarrio.Location = new System.Drawing.Point(317, 149);
@@ -191,6 +192,7 @@ namespace pryColegio
             this.Controls.Add(this.lblDNI);
             this.Name = "frmNuevoAlumno";
             this.Text = "frmNuevoAlumno";
+            this.Load += new System.EventHandler(this.frmNuevoAlumno_Load);
             this.gbSexo.ResumeLayout(false);
             this.gbSexo.PerformLayout();
             this.ResumeLayout(false);
