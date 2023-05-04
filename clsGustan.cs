@@ -16,6 +16,21 @@ namespace pryColegio
         private OleDbDataAdapter adaptador;
         private DataTable tabla;
 
+        private int dni;
+        private int fruta;
+
+        public int Dni
+        {
+            get { return dni; }
+            set { dni = value; }
+        }
+
+        public int Fruta
+        {
+            get { return fruta; }
+            set { fruta = value; }
+        }
+
         public clsGustan()
         {
             cadena = clsConexion.getCadena();

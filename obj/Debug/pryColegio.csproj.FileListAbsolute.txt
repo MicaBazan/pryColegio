@@ -11,3 +11,4 @@ C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.exe
 C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.pdb
 C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.frmNuevaFruta.resources
 C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.frmNuevoAlumno.resources
+C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.frmFrutasGustanAlumno.resources

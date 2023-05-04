@@ -34,5 +34,11 @@ namespace pryColegio
             frmNuevoAlumno alumno = new frmNuevoAlumno();
             alumno.ShowDialog();
         }
+
+        private void queFrutasLeGustaAlAlumnoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmFrutasGustanAlumno fruta = new frmFrutasGustanAlumno();
+            fruta.ShowDialog();
+        }
     }
 }
