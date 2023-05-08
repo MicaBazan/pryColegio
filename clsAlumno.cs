@@ -100,5 +100,21 @@ namespace pryColegio
                 barrio = 0;
             }
         }
+
+        public void buscar()
+        {
+            DataRow fila = tabla.Rows.Find(dni);
+
+            if (fila == null)
+            {
+                nombre = "";
+                foto = "";
+            }
+            else
+            {
+                nombre = fila["nombre"].ToString();
+                foto = fila["foto"].ToString();
+            }
+        }
     }
 }

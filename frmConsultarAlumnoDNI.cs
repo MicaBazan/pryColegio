@@ -16,5 +16,40 @@ namespace pryColegio
         {
             InitializeComponent();
         }
+
+        clsAlumno a = new clsAlumno();
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            a.Dni = Convert.ToInt32(txtDni.Text);
+            a.buscar();
+            txtNombre.Text = a.Nombre;
+            if (a.Nombre == "")
+            {
+                pbFoto.Image = null;
+
+            }
+            else
+            {
+                pbFoto.Load("fotos/" + a.Foto);
+            }
+        }
+
+        private void txtDni_TextChanged(object sender, EventArgs e)
+        {
+            if (txtDni.Text != string.Empty)
+            {
+                btnBuscar.Enabled = true;
+            }
+            else
+            {
+                btnBuscar.Enabled = false;
+            }
+        }
+
+        private void frmConsultarAlumnoDNI_Load(object sender, EventArgs e)
+        {
+            btnBuscar.Enabled = false;
+        }
     }
 }

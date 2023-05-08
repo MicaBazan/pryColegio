@@ -26,3 +26,4 @@ C:\Users\Alumno\Source\Repos\pryColegio\obj\Debug\pryColegio.csproj.GenerateReso
 C:\Users\Alumno\Source\Repos\pryColegio\obj\Debug\pryColegio.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\Source\Repos\pryColegio\obj\Debug\pryColegio.exe
 C:\Users\Alumno\Source\Repos\pryColegio\obj\Debug\pryColegio.pdb
+C:\Users\Alumno\Source\Repos\pryColegio\obj\Debug\pryColegio.frmConsultarAlumnoDNI.resources
