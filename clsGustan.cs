@@ -50,6 +50,16 @@ namespace pryColegio
             return tabla;
         }
 
+        public void grabar()
+        {
+            DataRow fila = tabla.NewRow();
+            fila["dni"] = dni;
+            fila["fruta"] = fruta;
+            tabla.Rows.Add(fila);
+            OleDbCommandBuilder cb = new OleDbCommandBuilder(adaptador);
+            adaptador.Update(tabla);
+        }
+
 
     }
 }

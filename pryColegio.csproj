@@ -51,6 +51,12 @@
     <Compile Include="clsConexion.cs" />
     <Compile Include="clsFruta.cs" />
     <Compile Include="clsGustan.cs" />
+    <Compile Include="frmConsultarAlumnoDNI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultarAlumnoDNI.Designer.cs">
+      <DependentUpon>frmConsultarAlumnoDNI.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmFrutasGustanAlumno.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmConsultarAlumnoDNI.resx">
+      <DependentUpon>frmConsultarAlumnoDNI.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmFrutasGustanAlumno.resx">
       <DependentUpon>frmFrutasGustanAlumno.cs</DependentUpon>
     </EmbeddedResource>

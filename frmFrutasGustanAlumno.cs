@@ -33,5 +33,15 @@ namespace pryColegio
             cbAlumno.DataSource = alumno.getAlumnos();
 
         }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            gustan.Dni = Convert.ToInt32(cbAlumno.SelectedValue);
+            gustan.Fruta = Convert.ToInt32(cbFruta.SelectedValue);
+
+            gustan.grabar();
+
+            MessageBox.Show("DATO GUARDADO CON EXITO");
+        }
     }
 }

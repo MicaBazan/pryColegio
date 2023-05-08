@@ -12,3 +12,17 @@ C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.pdb
 C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.frmNuevaFruta.resources
 C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.frmNuevoAlumno.resources
 C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.frmFrutasGustanAlumno.resources
+C:\Users\Alumno\Source\Repos\pryColegio\bin\Debug\pryColegio.exe.config
+C:\Users\Alumno\Source\Repos\pryColegio\bin\Debug\pryColegio.exe
+C:\Users\Alumno\Source\Repos\pryColegio\bin\Debug\pryColegio.pdb
+C:\Users\Alumno\Source\Repos\pryColegio\obj\Debug\pryColegio.csproj.AssemblyReference.cache
+C:\Users\Alumno\Source\Repos\pryColegio\obj\Debug\pryColegio.frmFrutasGustanAlumno.resources
+C:\Users\Alumno\Source\Repos\pryColegio\obj\Debug\pryColegio.frmNuevaFruta.resources
+C:\Users\Alumno\Source\Repos\pryColegio\obj\Debug\pryColegio.frmNuevoAlumno.resources
+C:\Users\Alumno\Source\Repos\pryColegio\obj\Debug\pryColegio.frmNuevoBarrio.resources
+C:\Users\Alumno\Source\Repos\pryColegio\obj\Debug\pryColegio.frmPrincipal.resources
+C:\Users\Alumno\Source\Repos\pryColegio\obj\Debug\pryColegio.Properties.Resources.resources
+C:\Users\Alumno\Source\Repos\pryColegio\obj\Debug\pryColegio.csproj.GenerateResource.cache
+C:\Users\Alumno\Source\Repos\pryColegio\obj\Debug\pryColegio.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Source\Repos\pryColegio\obj\Debug\pryColegio.exe
+C:\Users\Alumno\Source\Repos\pryColegio\obj\Debug\pryColegio.pdb
