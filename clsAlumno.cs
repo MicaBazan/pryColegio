@@ -5,11 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.OleDb;
+using System.Windows.Forms;
 
 namespace pryColegio
 {
     class clsAlumno
     {
+        clsBarrio b = new clsBarrio();
+
         private string cadena;
         private OleDbConnection conector;
         private OleDbCommand comando;
@@ -114,6 +117,30 @@ namespace pryColegio
             {
                 nombre = fila["nombre"].ToString();
                 foto = fila["foto"].ToString();
+            }
+        }
+
+        public void ver(DataGridView dgv, string busco)
+        {
+            dgv.Rows.Clear();
+            foreach (DataRow fila in tabla.Rows)
+            {
+
+                string sexo = "FEMENINO";
+
+                if (fila["sexo"].ToString() == "M")
+                {
+                    sexo = "MASCULINO";
+                }
+
+                string nb = b.buscar(Convert.ToInt32(fila["barrio"]));
+
+                int pos = fila["nombre"].ToString().IndexOf(busco);
+
+                if (pos > -1)
+                {
+                    dgv.Rows.Add(fila["dni"], fila["nombre"], sexo, fila["foto"], nb);
+                }
             }
         }
     }

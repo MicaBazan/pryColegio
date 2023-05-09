@@ -73,5 +73,11 @@ namespace pryColegio
                 nombre = "";
             }
         }
+
+        public string buscar(int barrio)
+        {
+            DataRow fila = tabla.Rows.Find(barrio);
+            return fila["nombre"].ToString();
+        }
     }
 }
