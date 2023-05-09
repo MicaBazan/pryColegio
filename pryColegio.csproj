@@ -57,6 +57,12 @@
     <Compile Include="frmConsultarAlumnoDNI.Designer.cs">
       <DependentUpon>frmConsultarAlumnoDNI.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmConsultarAlumnoParteNombre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultarAlumnoParteNombre.Designer.cs">
+      <DependentUpon>frmConsultarAlumnoParteNombre.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmFrutasGustanAlumno.cs">
       <SubType>Form</SubType>
     </Compile>
