@@ -90,6 +90,5 @@ namespace pryColegio
             return fila["nombre"].ToString();
         }
 
-        
     }
 }

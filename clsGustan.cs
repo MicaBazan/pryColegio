@@ -78,6 +78,20 @@ namespace pryColegio
             }
         }
 
+        public void verNo(DataGridView dgv, int busco)
+        {
+            dgv.Rows.Clear();
+            foreach (DataRow fila in tabla.Rows)
+            {
+                if (busco == Convert.ToInt32(fila["dni"]))
+                {
+                    string fruta = f.buscar(Convert.ToInt32(fila["fruta"]));
+
+                    dgv.Rows.Add(fruta);
+                }
+
+            }
+        }
 
     }
 }

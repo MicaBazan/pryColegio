@@ -160,6 +160,7 @@ namespace pryColegio
             this.queFrutasNoLeGustanAUnAlumnoToolStripMenuItem.Name = "queFrutasNoLeGustanAUnAlumnoToolStripMenuItem";
             this.queFrutasNoLeGustanAUnAlumnoToolStripMenuItem.Size = new System.Drawing.Size(578, 26);
             this.queFrutasNoLeGustanAUnAlumnoToolStripMenuItem.Text = "Que frutas no le gustan a un alumno";
+            this.queFrutasNoLeGustanAUnAlumnoToolStripMenuItem.Click += new System.EventHandler(this.queFrutasNoLeGustanAUnAlumnoToolStripMenuItem_Click);
             // 
             // aQueAlumnoLeGustaUnaFrutaToolStripMenuItem
             // 
