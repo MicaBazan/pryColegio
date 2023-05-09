@@ -82,5 +82,10 @@ namespace pryColegio
             frmVerFrutasyCantidadTotalDeAlumnoXFruta xz = new frmVerFrutasyCantidadTotalDeAlumnoXFruta();
             xz.ShowDialog();
         }
+
+        private void aQueAlumnoLeGustaUnaFrutaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
