@@ -61,7 +61,8 @@ namespace pryColegio
 
         private void verTodasLasFrutasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            frmVerFrutas f = new frmVerFrutas();
+            f.ShowDialog();
         }
     }
 }

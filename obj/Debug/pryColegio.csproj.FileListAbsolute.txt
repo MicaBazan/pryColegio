@@ -30,3 +30,4 @@ C:\Users\Alumno\Source\Repos\pryColegio\obj\Debug\pryColegio.frmConsultarAlumnoD
 C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.frmConsultarAlumnoDNI.resources
 C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.frmConsultarAlumnoParteNombre.resources
 C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.frmVerTodosAlumnos.resources
+C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.frmVerFrutas.resources

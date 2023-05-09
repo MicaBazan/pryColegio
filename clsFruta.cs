@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.OleDb;
+using System.Windows.Forms;
 
 namespace pryColegio
 {
@@ -71,6 +72,15 @@ namespace pryColegio
             {
                 fruta = 0;
                 nombre = "";
+            }
+        }
+
+        public void verTodo(DataGridView dgv)
+        {
+            dgv.Rows.Clear();
+            foreach (DataRow fila in tabla.Rows)
+            {
+                dgv.Rows.Add(fila["fruta"], fila["nombre"]);
             }
         }
     }

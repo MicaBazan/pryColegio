@@ -12,9 +12,16 @@ namespace pryColegio
 {
     public partial class frmVerFrutas : Form
     {
+        clsFruta f;
         public frmVerFrutas()
         {
             InitializeComponent();
+        }
+
+        private void frmVerFrutas_Load(object sender, EventArgs e)
+        {
+            f = new clsFruta();
+            f.verTodo(dgvFruta);
         }
     }
 }
