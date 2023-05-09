@@ -143,5 +143,23 @@ namespace pryColegio
                 }
             }
         }
+
+        public void verTodo(DataGridView dgv)
+        {
+            dgv.Rows.Clear();
+            foreach (DataRow fila in tabla.Rows)
+            {
+                string sexo = "FEMENINO";
+
+                if (fila["sexo"].ToString() == "M")
+                {
+                    sexo = "MASCULINO";
+                }
+
+                string nb = b.buscar(Convert.ToInt32(fila["barrio"]));
+
+                dgv.Rows.Add(fila["dni"], fila["nombre"], sexo, nb);
+            }
+        }
     }
 }

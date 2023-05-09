@@ -12,9 +12,17 @@ namespace pryColegio
 {
     public partial class frmVerTodosAlumnos : Form
     {
+        clsAlumno a;
         public frmVerTodosAlumnos()
         {
             InitializeComponent();
+        }
+
+        private void frmVerTodosAlumnos_Load(object sender, EventArgs e)
+        {
+            a = new clsAlumno();
+
+            a.verTodo(dgvAlumnos);
         }
     }
 }
