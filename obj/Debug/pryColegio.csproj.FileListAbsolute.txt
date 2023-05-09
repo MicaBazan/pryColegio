@@ -28,3 +28,4 @@ C:\Users\Alumno\Source\Repos\pryColegio\obj\Debug\pryColegio.exe
 C:\Users\Alumno\Source\Repos\pryColegio\obj\Debug\pryColegio.pdb
 C:\Users\Alumno\Source\Repos\pryColegio\obj\Debug\pryColegio.frmConsultarAlumnoDNI.resources
 C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.frmConsultarAlumnoDNI.resources
+C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.frmConsultarAlumnoParteNombre.resources

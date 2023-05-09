@@ -98,6 +98,9 @@
     <EmbeddedResource Include="frmConsultarAlumnoDNI.resx">
       <DependentUpon>frmConsultarAlumnoDNI.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultarAlumnoParteNombre.resx">
+      <DependentUpon>frmConsultarAlumnoParteNombre.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmFrutasGustanAlumno.resx">
       <DependentUpon>frmFrutasGustanAlumno.cs</DependentUpon>
     </EmbeddedResource>

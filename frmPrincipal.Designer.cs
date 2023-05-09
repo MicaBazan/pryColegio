@@ -58,8 +58,8 @@ namespace pryColegio
             this.consultasToolStripMenuItem});
             this.msPrincipal.Location = new System.Drawing.Point(0, 0);
             this.msPrincipal.Name = "msPrincipal";
-            this.msPrincipal.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.msPrincipal.Size = new System.Drawing.Size(543, 24);
+            this.msPrincipal.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
+            this.msPrincipal.Size = new System.Drawing.Size(724, 28);
             this.msPrincipal.TabIndex = 0;
             this.msPrincipal.Text = "menuStrip1";
             // 
@@ -71,34 +71,34 @@ namespace pryColegio
             this.nuevoAlumnoToolStripMenuItem,
             this.queFrutasLeGustaAlAlumnoToolStripMenuItem});
             this.tareasToolStripMenuItem.Name = "tareasToolStripMenuItem";
-            this.tareasToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
+            this.tareasToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
             this.tareasToolStripMenuItem.Text = "Tareas";
             // 
             // nuevoBarrioToolStripMenuItem
             // 
             this.nuevoBarrioToolStripMenuItem.Name = "nuevoBarrioToolStripMenuItem";
-            this.nuevoBarrioToolStripMenuItem.Size = new System.Drawing.Size(233, 22);
+            this.nuevoBarrioToolStripMenuItem.Size = new System.Drawing.Size(290, 26);
             this.nuevoBarrioToolStripMenuItem.Text = "Nuevo Barrio";
             this.nuevoBarrioToolStripMenuItem.Click += new System.EventHandler(this.nuevoBarrioToolStripMenuItem_Click);
             // 
             // nuevaFrutaToolStripMenuItem
             // 
             this.nuevaFrutaToolStripMenuItem.Name = "nuevaFrutaToolStripMenuItem";
-            this.nuevaFrutaToolStripMenuItem.Size = new System.Drawing.Size(233, 22);
+            this.nuevaFrutaToolStripMenuItem.Size = new System.Drawing.Size(290, 26);
             this.nuevaFrutaToolStripMenuItem.Text = "Nueva Fruta";
             this.nuevaFrutaToolStripMenuItem.Click += new System.EventHandler(this.nuevaFrutaToolStripMenuItem_Click);
             // 
             // nuevoAlumnoToolStripMenuItem
             // 
             this.nuevoAlumnoToolStripMenuItem.Name = "nuevoAlumnoToolStripMenuItem";
-            this.nuevoAlumnoToolStripMenuItem.Size = new System.Drawing.Size(233, 22);
+            this.nuevoAlumnoToolStripMenuItem.Size = new System.Drawing.Size(290, 26);
             this.nuevoAlumnoToolStripMenuItem.Text = "Nuevo Alumno";
             this.nuevoAlumnoToolStripMenuItem.Click += new System.EventHandler(this.nuevoAlumnoToolStripMenuItem_Click);
             // 
             // queFrutasLeGustaAlAlumnoToolStripMenuItem
             // 
             this.queFrutasLeGustaAlAlumnoToolStripMenuItem.Name = "queFrutasLeGustaAlAlumnoToolStripMenuItem";
-            this.queFrutasLeGustaAlAlumnoToolStripMenuItem.Size = new System.Drawing.Size(233, 22);
+            this.queFrutasLeGustaAlAlumnoToolStripMenuItem.Size = new System.Drawing.Size(290, 26);
             this.queFrutasLeGustaAlAlumnoToolStripMenuItem.Text = "Qué Frutas le gusta al Alumno";
             this.queFrutasLeGustaAlAlumnoToolStripMenuItem.Click += new System.EventHandler(this.queFrutasLeGustaAlAlumnoToolStripMenuItem_Click);
             // 
@@ -117,84 +117,85 @@ namespace pryColegio
             this.arbolitoAlumnosFrutasToolStripMenuItem,
             this.verTodasLasFrutasYLaCantidadTotalDeAlumnosQueLeGustaCadaFrutaToolStripMenuItem});
             this.consultasToolStripMenuItem.Name = "consultasToolStripMenuItem";
-            this.consultasToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
+            this.consultasToolStripMenuItem.Size = new System.Drawing.Size(86, 24);
             this.consultasToolStripMenuItem.Text = "Consultas";
             // 
             // consultarAlumnoPorDNIToolStripMenuItem
             // 
             this.consultarAlumnoPorDNIToolStripMenuItem.Name = "consultarAlumnoPorDNIToolStripMenuItem";
-            this.consultarAlumnoPorDNIToolStripMenuItem.Size = new System.Drawing.Size(457, 22);
+            this.consultarAlumnoPorDNIToolStripMenuItem.Size = new System.Drawing.Size(578, 26);
             this.consultarAlumnoPorDNIToolStripMenuItem.Text = "Consultar alumno por DNI";
             this.consultarAlumnoPorDNIToolStripMenuItem.Click += new System.EventHandler(this.consultarAlumnoPorDNIToolStripMenuItem_Click);
             // 
             // consultarQuéFrutasLeGustanAlAlumnoToolStripMenuItem
             // 
             this.consultarQuéFrutasLeGustanAlAlumnoToolStripMenuItem.Name = "consultarQuéFrutasLeGustanAlAlumnoToolStripMenuItem";
-            this.consultarQuéFrutasLeGustanAlAlumnoToolStripMenuItem.Size = new System.Drawing.Size(457, 22);
+            this.consultarQuéFrutasLeGustanAlAlumnoToolStripMenuItem.Size = new System.Drawing.Size(578, 26);
             this.consultarQuéFrutasLeGustanAlAlumnoToolStripMenuItem.Text = "Consultar alumno por parte de su nombre";
+            this.consultarQuéFrutasLeGustanAlAlumnoToolStripMenuItem.Click += new System.EventHandler(this.consultarQuéFrutasLeGustanAlAlumnoToolStripMenuItem_Click);
             // 
             // verTodosLosAlumnosToolStripMenuItem
             // 
             this.verTodosLosAlumnosToolStripMenuItem.Name = "verTodosLosAlumnosToolStripMenuItem";
-            this.verTodosLosAlumnosToolStripMenuItem.Size = new System.Drawing.Size(457, 22);
+            this.verTodosLosAlumnosToolStripMenuItem.Size = new System.Drawing.Size(578, 26);
             this.verTodosLosAlumnosToolStripMenuItem.Text = "Ver todos los alumnos";
             // 
             // verTodasLasFrutasToolStripMenuItem
             // 
             this.verTodasLasFrutasToolStripMenuItem.Name = "verTodasLasFrutasToolStripMenuItem";
-            this.verTodasLasFrutasToolStripMenuItem.Size = new System.Drawing.Size(457, 22);
+            this.verTodasLasFrutasToolStripMenuItem.Size = new System.Drawing.Size(578, 26);
             this.verTodasLasFrutasToolStripMenuItem.Text = "Ver todas las frutas";
             // 
             // queFrutasLeGustanAUnAlumnoToolStripMenuItem
             // 
             this.queFrutasLeGustanAUnAlumnoToolStripMenuItem.Name = "queFrutasLeGustanAUnAlumnoToolStripMenuItem";
-            this.queFrutasLeGustanAUnAlumnoToolStripMenuItem.Size = new System.Drawing.Size(457, 22);
+            this.queFrutasLeGustanAUnAlumnoToolStripMenuItem.Size = new System.Drawing.Size(578, 26);
             this.queFrutasLeGustanAUnAlumnoToolStripMenuItem.Text = "Que frutas le gustan a un alumno";
             // 
             // queFrutasNoLeGustanAUnAlumnoToolStripMenuItem
             // 
             this.queFrutasNoLeGustanAUnAlumnoToolStripMenuItem.Name = "queFrutasNoLeGustanAUnAlumnoToolStripMenuItem";
-            this.queFrutasNoLeGustanAUnAlumnoToolStripMenuItem.Size = new System.Drawing.Size(457, 22);
+            this.queFrutasNoLeGustanAUnAlumnoToolStripMenuItem.Size = new System.Drawing.Size(578, 26);
             this.queFrutasNoLeGustanAUnAlumnoToolStripMenuItem.Text = "Que frutas no le gustan a un alumno";
             // 
             // aQueAlumnoLeGustaUnaFrutaToolStripMenuItem
             // 
             this.aQueAlumnoLeGustaUnaFrutaToolStripMenuItem.Name = "aQueAlumnoLeGustaUnaFrutaToolStripMenuItem";
-            this.aQueAlumnoLeGustaUnaFrutaToolStripMenuItem.Size = new System.Drawing.Size(457, 22);
+            this.aQueAlumnoLeGustaUnaFrutaToolStripMenuItem.Size = new System.Drawing.Size(578, 26);
             this.aQueAlumnoLeGustaUnaFrutaToolStripMenuItem.Text = "A que alumno le gusta una fruta";
             // 
             // aQueAlumnoNoLeGustaUnaFrutaToolStripMenuItem
             // 
             this.aQueAlumnoNoLeGustaUnaFrutaToolStripMenuItem.Name = "aQueAlumnoNoLeGustaUnaFrutaToolStripMenuItem";
-            this.aQueAlumnoNoLeGustaUnaFrutaToolStripMenuItem.Size = new System.Drawing.Size(457, 22);
+            this.aQueAlumnoNoLeGustaUnaFrutaToolStripMenuItem.Size = new System.Drawing.Size(578, 26);
             this.aQueAlumnoNoLeGustaUnaFrutaToolStripMenuItem.Text = "A que alumno no le gusta una fruta";
             // 
             // arbolitoFrutasAlumnosToolStripMenuItem
             // 
             this.arbolitoFrutasAlumnosToolStripMenuItem.Name = "arbolitoFrutasAlumnosToolStripMenuItem";
-            this.arbolitoFrutasAlumnosToolStripMenuItem.Size = new System.Drawing.Size(457, 22);
+            this.arbolitoFrutasAlumnosToolStripMenuItem.Size = new System.Drawing.Size(578, 26);
             this.arbolitoFrutasAlumnosToolStripMenuItem.Text = "Arbolito frutas alumnos";
             // 
             // arbolitoAlumnosFrutasToolStripMenuItem
             // 
             this.arbolitoAlumnosFrutasToolStripMenuItem.Name = "arbolitoAlumnosFrutasToolStripMenuItem";
-            this.arbolitoAlumnosFrutasToolStripMenuItem.Size = new System.Drawing.Size(457, 22);
+            this.arbolitoAlumnosFrutasToolStripMenuItem.Size = new System.Drawing.Size(578, 26);
             this.arbolitoAlumnosFrutasToolStripMenuItem.Text = "Arbolito alumnos frutas";
             // 
             // verTodasLasFrutasYLaCantidadTotalDeAlumnosQueLeGustaCadaFrutaToolStripMenuItem
             // 
             this.verTodasLasFrutasYLaCantidadTotalDeAlumnosQueLeGustaCadaFrutaToolStripMenuItem.Name = "verTodasLasFrutasYLaCantidadTotalDeAlumnosQueLeGustaCadaFrutaToolStripMenuItem";
-            this.verTodasLasFrutasYLaCantidadTotalDeAlumnosQueLeGustaCadaFrutaToolStripMenuItem.Size = new System.Drawing.Size(457, 22);
+            this.verTodasLasFrutasYLaCantidadTotalDeAlumnosQueLeGustaCadaFrutaToolStripMenuItem.Size = new System.Drawing.Size(578, 26);
             this.verTodasLasFrutasYLaCantidadTotalDeAlumnosQueLeGustaCadaFrutaToolStripMenuItem.Text = "Ver todas las frutas y la cantidad total de alumnos que le gusta cada fruta";
             // 
             // frmPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(543, 339);
+            this.ClientSize = new System.Drawing.Size(724, 417);
             this.Controls.Add(this.msPrincipal);
             this.MainMenuStrip = this.msPrincipal;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmPrincipal";
             this.Text = "Principal";
             this.msPrincipal.ResumeLayout(false);

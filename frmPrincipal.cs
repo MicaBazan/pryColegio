@@ -46,5 +46,11 @@ namespace pryColegio
             frmConsultarAlumnoDNI dni = new frmConsultarAlumnoDNI();
             dni.ShowDialog();
         }
+
+        private void consultarQuéFrutasLeGustanAlAlumnoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmConsultarAlumnoParteNombre f = new frmConsultarAlumnoParteNombre();
+            f.ShowDialog();
+        }
     }
 }
