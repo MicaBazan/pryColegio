@@ -24,8 +24,16 @@ namespace pryColegio
             g = new clsGustan();
             f = new clsFruta();
 
+            cbFruta.DisplayMember = "nombre";
+            cbFruta.ValueMember = "fruta";
+            cbFruta.DataSource = f.getFrutas();
 
+        }
 
+        private void btnVer_Click(object sender, EventArgs e)
+        {
+            int fru = Convert.ToInt32(cbFruta.SelectedValue);
+            g.sumar(dgvFruta, fru);
         }
     }
 }

@@ -93,10 +93,20 @@ namespace pryColegio
             }
         }
 
-        public void sumar(DataGridView dgv)
+        public void sumar(DataGridView dgv, int fruta)
         {
+            int i = 0;
             dgv.Rows.Clear();
+            foreach (DataRow fila in tabla.Rows)
+            {
+                if (fruta == Convert.ToInt32(fila["fruta"]))
+                {
+                    i = i + 1;
+                }
+            }
 
+            string fru = f.buscar(Convert.ToInt32(fruta));
+            dgv.Rows.Add(fru, i);
         }
 
     }
