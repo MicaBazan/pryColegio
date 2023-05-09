@@ -27,6 +27,7 @@ namespace pryColegio
             if (a.Nombre == "")
             {
                 pbFoto.Image = null;
+                MessageBox.Show("Alumno no encontrado", "SIN DATOS");
 
             }
             else
