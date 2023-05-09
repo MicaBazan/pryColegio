@@ -58,5 +58,10 @@ namespace pryColegio
             frmVerTodosAlumnos a = new frmVerTodosAlumnos();
             a.ShowDialog();
         }
+
+        private void verTodasLasFrutasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

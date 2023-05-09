@@ -146,6 +146,7 @@ namespace pryColegio
             this.verTodasLasFrutasToolStripMenuItem.Name = "verTodasLasFrutasToolStripMenuItem";
             this.verTodasLasFrutasToolStripMenuItem.Size = new System.Drawing.Size(578, 26);
             this.verTodasLasFrutasToolStripMenuItem.Text = "Ver todas las frutas";
+            this.verTodasLasFrutasToolStripMenuItem.Click += new System.EventHandler(this.verTodasLasFrutasToolStripMenuItem_Click);
             // 
             // queFrutasLeGustanAUnAlumnoToolStripMenuItem
             // 
