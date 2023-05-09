@@ -11,6 +11,8 @@ namespace pryColegio
 {
     class clsGustan
     {
+        clsFruta f = new clsFruta();
+
         private string cadena;
         private OleDbConnection conector;
         private OleDbCommand comando;
@@ -66,12 +68,13 @@ namespace pryColegio
             dgv.Rows.Clear();
             foreach (DataRow fila in tabla.Rows)
             {
-                int pos = fila["nombre"].ToString().IndexOf(busco);
-
-                if (pos > -1)
+                if (busco == Convert.ToInt32(fila["dni"]))
                 {
-                    dgv.Rows.Add(fila["dni"], fila["nombre"], sexo, nb);
+                    string fruta = f.buscar(Convert.ToInt32(fila["fruta"]));
+
+                    dgv.Rows.Add(fruta);
                 }
+ 
             }
         }
 

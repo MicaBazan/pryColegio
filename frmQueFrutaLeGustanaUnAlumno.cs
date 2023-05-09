@@ -31,9 +31,11 @@ namespace pryColegio
 
         private void btnVer_Click(object sender, EventArgs e)
         {
+            g = new clsGustan();
+            
             int dni = Convert.ToInt32(cbAlumno.SelectedValue);
 
-            
+            g.ver(dgvFruta, dni);
         }
     }
 }
