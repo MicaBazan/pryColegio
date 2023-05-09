@@ -35,6 +35,8 @@ namespace pryColegio
             this.dgvAlumno = new System.Windows.Forms.DataGridView();
             this.DNI = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NOMBRE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SEXO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BARRIO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAlumno)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,7 +71,9 @@ namespace pryColegio
             this.dgvAlumno.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvAlumno.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.DNI,
-            this.NOMBRE});
+            this.NOMBRE,
+            this.SEXO,
+            this.BARRIO});
             this.dgvAlumno.Location = new System.Drawing.Point(29, 110);
             this.dgvAlumno.Name = "dgvAlumno";
             this.dgvAlumno.RowHeadersWidth = 51;
@@ -91,6 +95,20 @@ namespace pryColegio
             this.NOMBRE.Name = "NOMBRE";
             this.NOMBRE.Width = 240;
             // 
+            // SEXO
+            // 
+            this.SEXO.HeaderText = "SEXO";
+            this.SEXO.MinimumWidth = 6;
+            this.SEXO.Name = "SEXO";
+            this.SEXO.Width = 125;
+            // 
+            // BARRIO
+            // 
+            this.BARRIO.HeaderText = "BARRIO";
+            this.BARRIO.MinimumWidth = 6;
+            this.BARRIO.Name = "BARRIO";
+            this.BARRIO.Width = 125;
+            // 
             // frmConsultarAlumnoParteNombre
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
@@ -101,7 +119,7 @@ namespace pryColegio
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.txtNombre);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmConsultarAlumnoParteNombre";
             this.Text = "frmConsultarAlumnoParteNombre";
             this.Load += new System.EventHandler(this.frmConsultarAlumnoParteNombre_Load);
@@ -119,5 +137,7 @@ namespace pryColegio
         private System.Windows.Forms.DataGridView dgvAlumno;
         private System.Windows.Forms.DataGridViewTextBoxColumn DNI;
         private System.Windows.Forms.DataGridViewTextBoxColumn NOMBRE;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SEXO;
+        private System.Windows.Forms.DataGridViewTextBoxColumn BARRIO;
     }
 }

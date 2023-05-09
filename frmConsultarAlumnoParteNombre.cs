@@ -22,7 +22,7 @@ namespace pryColegio
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            a.ver(dgvAlumno, txtNombre.Text);
+            a.ver(dgvAlumno, txtNombre.Text.ToUpper());
         }
 
         private void frmConsultarAlumnoParteNombre_Load(object sender, EventArgs e)
