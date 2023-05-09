@@ -93,6 +93,12 @@
     <Compile Include="frmPrincipal.Designer.cs">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmQueFrutaLeGustanaUnAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQueFrutaLeGustanaUnAlumno.Designer.cs">
+      <DependentUpon>frmQueFrutaLeGustanaUnAlumno.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmVerFrutas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +133,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQueFrutaLeGustanaUnAlumno.resx">
+      <DependentUpon>frmQueFrutaLeGustanaUnAlumno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmVerFrutas.resx">
       <DependentUpon>frmVerFrutas.cs</DependentUpon>
