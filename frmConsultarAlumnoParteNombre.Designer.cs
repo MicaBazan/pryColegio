@@ -35,7 +35,6 @@ namespace pryColegio
             this.dgvAlumno = new System.Windows.Forms.DataGridView();
             this.DNI = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NOMBRE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BARRIO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAlumno)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,8 +69,7 @@ namespace pryColegio
             this.dgvAlumno.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvAlumno.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.DNI,
-            this.NOMBRE,
-            this.BARRIO});
+            this.NOMBRE});
             this.dgvAlumno.Location = new System.Drawing.Point(29, 110);
             this.dgvAlumno.Name = "dgvAlumno";
             this.dgvAlumno.RowHeadersWidth = 51;
@@ -92,13 +90,6 @@ namespace pryColegio
             this.NOMBRE.MinimumWidth = 6;
             this.NOMBRE.Name = "NOMBRE";
             this.NOMBRE.Width = 240;
-            // 
-            // BARRIO
-            // 
-            this.BARRIO.HeaderText = "BARRIO";
-            this.BARRIO.MinimumWidth = 6;
-            this.BARRIO.Name = "BARRIO";
-            this.BARRIO.Width = 240;
             // 
             // frmConsultarAlumnoParteNombre
             // 
@@ -128,6 +119,5 @@ namespace pryColegio
         private System.Windows.Forms.DataGridView dgvAlumno;
         private System.Windows.Forms.DataGridViewTextBoxColumn DNI;
         private System.Windows.Forms.DataGridViewTextBoxColumn NOMBRE;
-        private System.Windows.Forms.DataGridViewTextBoxColumn BARRIO;
     }
 }

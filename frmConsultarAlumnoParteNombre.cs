@@ -31,9 +31,9 @@ namespace pryColegio
             {
                 nombre = fila["nombre"].ToString();
                 int pos = nombre.IndexOf(queBusco);
-                if (pos > -1)
+                if (pos>-1)
                 {
-                    dgvAlumno.Rows.Add(fila["dni"].ToString(), fila["nombre"].ToString(), fila[""].ToString());
+                    dgvAlumno.Rows.Add(fila["dni"].ToString(), fila["nombre"].ToString());
                 }
             }
         }
