@@ -26,7 +26,7 @@ namespace pryColegio
 
             cbAlumno.DisplayMember = "nombre";
             cbAlumno.ValueMember = "dni";
-            cbAlumno.DataSource = alumno.getAlumnos();
+            cbAlumno.DataSource = a.getAlumnos();
         }
     }
 }
