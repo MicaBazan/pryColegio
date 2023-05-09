@@ -52,5 +52,11 @@ namespace pryColegio
             frmConsultarAlumnoParteNombre f = new frmConsultarAlumnoParteNombre();
             f.ShowDialog();
         }
+
+        private void verTodosLosAlumnosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmVerTodosAlumnos a = new frmVerTodosAlumnos();
+            a.ShowDialog();
+        }
     }
 }

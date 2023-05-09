@@ -139,6 +139,7 @@ namespace pryColegio
             this.verTodosLosAlumnosToolStripMenuItem.Name = "verTodosLosAlumnosToolStripMenuItem";
             this.verTodosLosAlumnosToolStripMenuItem.Size = new System.Drawing.Size(578, 26);
             this.verTodosLosAlumnosToolStripMenuItem.Text = "Ver todos los alumnos";
+            this.verTodosLosAlumnosToolStripMenuItem.Click += new System.EventHandler(this.verTodosLosAlumnosToolStripMenuItem_Click);
             // 
             // verTodasLasFrutasToolStripMenuItem
             // 

@@ -68,6 +68,9 @@ namespace pryColegio
             // 
             // dgvAlumno
             // 
+            this.dgvAlumno.AllowUserToAddRows = false;
+            this.dgvAlumno.AllowUserToDeleteRows = false;
+            this.dgvAlumno.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvAlumno.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvAlumno.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.DNI,
@@ -76,6 +79,7 @@ namespace pryColegio
             this.BARRIO});
             this.dgvAlumno.Location = new System.Drawing.Point(29, 110);
             this.dgvAlumno.Name = "dgvAlumno";
+            this.dgvAlumno.ReadOnly = true;
             this.dgvAlumno.RowHeadersWidth = 51;
             this.dgvAlumno.RowTemplate.Height = 24;
             this.dgvAlumno.Size = new System.Drawing.Size(736, 366);
@@ -86,28 +90,28 @@ namespace pryColegio
             this.DNI.HeaderText = "DNI";
             this.DNI.MinimumWidth = 6;
             this.DNI.Name = "DNI";
-            this.DNI.Width = 150;
+            this.DNI.ReadOnly = true;
             // 
             // NOMBRE
             // 
             this.NOMBRE.HeaderText = "NOMBRE";
             this.NOMBRE.MinimumWidth = 6;
             this.NOMBRE.Name = "NOMBRE";
-            this.NOMBRE.Width = 240;
+            this.NOMBRE.ReadOnly = true;
             // 
             // SEXO
             // 
             this.SEXO.HeaderText = "SEXO";
             this.SEXO.MinimumWidth = 6;
             this.SEXO.Name = "SEXO";
-            this.SEXO.Width = 125;
+            this.SEXO.ReadOnly = true;
             // 
             // BARRIO
             // 
             this.BARRIO.HeaderText = "BARRIO";
             this.BARRIO.MinimumWidth = 6;
             this.BARRIO.Name = "BARRIO";
-            this.BARRIO.Width = 125;
+            this.BARRIO.ReadOnly = true;
             // 
             // frmConsultarAlumnoParteNombre
             // 

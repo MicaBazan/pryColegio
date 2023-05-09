@@ -139,7 +139,7 @@ namespace pryColegio
 
                 if (pos > -1)
                 {
-                    dgv.Rows.Add(fila["dni"], fila["nombre"], sexo, fila["foto"], nb);
+                    dgv.Rows.Add(fila["dni"], fila["nombre"], sexo, nb);
                 }
             }
         }
