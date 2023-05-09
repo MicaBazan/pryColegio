@@ -64,5 +64,11 @@ namespace pryColegio
             frmVerFrutas f = new frmVerFrutas();
             f.ShowDialog();
         }
+
+        private void queFrutasLeGustanAUnAlumnoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmQueFrutaLeGustanaUnAlumno ga = new frmQueFrutaLeGustanaUnAlumno();
+            ga.ShowDialog();
+        }
     }
 }

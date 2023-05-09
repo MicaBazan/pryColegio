@@ -28,5 +28,12 @@ namespace pryColegio
             cbAlumno.ValueMember = "dni";
             cbAlumno.DataSource = a.getAlumnos();
         }
+
+        private void btnVer_Click(object sender, EventArgs e)
+        {
+            int dni = Convert.ToInt32(cbAlumno.SelectedValue);
+
+            
+        }
     }
 }

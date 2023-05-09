@@ -31,3 +31,4 @@ C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.frmConsultarAlu
 C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.frmConsultarAlumnoParteNombre.resources
 C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.frmVerTodosAlumnos.resources
 C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.frmVerFrutas.resources
+C:\Users\micab.MICA\Source\Repos\pryColegio\obj\Debug\pryColegio.frmQueFrutaLeGustanaUnAlumno.resources

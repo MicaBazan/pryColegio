@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.OleDb;
+using System.Windows.Forms;
 
 namespace pryColegio
 {
@@ -58,6 +59,20 @@ namespace pryColegio
             tabla.Rows.Add(fila);
             OleDbCommandBuilder cb = new OleDbCommandBuilder(adaptador);
             adaptador.Update(tabla);
+        }
+
+        public void ver(DataGridView dgv, int busco)
+        {
+            dgv.Rows.Clear();
+            foreach (DataRow fila in tabla.Rows)
+            {
+                int pos = fila["nombre"].ToString().IndexOf(busco);
+
+                if (pos > -1)
+                {
+                    dgv.Rows.Add(fila["dni"], fila["nombre"], sexo, nb);
+                }
+            }
         }
 
 

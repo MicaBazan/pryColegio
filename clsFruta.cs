@@ -83,5 +83,13 @@ namespace pryColegio
                 dgv.Rows.Add(fila["fruta"], fila["nombre"]);
             }
         }
+
+        public string buscar(int fruta)
+        {
+            DataRow fila = tabla.Rows.Find(fruta);
+            return fila["nombre"].ToString();
+        }
+
+        
     }
 }
