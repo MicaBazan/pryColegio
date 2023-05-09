@@ -186,6 +186,7 @@ namespace pryColegio
             this.arbolitoAlumnosFrutasToolStripMenuItem.Name = "arbolitoAlumnosFrutasToolStripMenuItem";
             this.arbolitoAlumnosFrutasToolStripMenuItem.Size = new System.Drawing.Size(578, 26);
             this.arbolitoAlumnosFrutasToolStripMenuItem.Text = "Arbolito alumnos frutas";
+            this.arbolitoAlumnosFrutasToolStripMenuItem.Click += new System.EventHandler(this.arbolitoAlumnosFrutasToolStripMenuItem_Click);
             // 
             // verTodasLasFrutasYLaCantidadTotalDeAlumnosQueLeGustaCadaFrutaToolStripMenuItem
             // 

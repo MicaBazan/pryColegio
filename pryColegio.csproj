@@ -51,6 +51,12 @@
     <Compile Include="clsConexion.cs" />
     <Compile Include="clsFruta.cs" />
     <Compile Include="clsGustan.cs" />
+    <Compile Include="frmArbolAlumnoFruta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmArbolAlumnoFruta.Designer.cs">
+      <DependentUpon>frmArbolAlumnoFruta.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmConsultarAlumnoDNI.cs">
       <SubType>Form</SubType>
     </Compile>

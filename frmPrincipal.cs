@@ -87,5 +87,11 @@ namespace pryColegio
         {
 
         }
+
+        private void arbolitoAlumnosFrutasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmArbolAlumnoFruta af = new frmArbolAlumnoFruta();
+            af.ShowDialog();
+        }
     }
 }
