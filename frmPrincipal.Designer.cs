@@ -191,6 +191,7 @@ namespace pryColegio
             this.verTodasLasFrutasYLaCantidadTotalDeAlumnosQueLeGustaCadaFrutaToolStripMenuItem.Name = "verTodasLasFrutasYLaCantidadTotalDeAlumnosQueLeGustaCadaFrutaToolStripMenuItem";
             this.verTodasLasFrutasYLaCantidadTotalDeAlumnosQueLeGustaCadaFrutaToolStripMenuItem.Size = new System.Drawing.Size(578, 26);
             this.verTodasLasFrutasYLaCantidadTotalDeAlumnosQueLeGustaCadaFrutaToolStripMenuItem.Text = "Ver todas las frutas y la cantidad total de alumnos que le gusta cada fruta";
+            this.verTodasLasFrutasYLaCantidadTotalDeAlumnosQueLeGustaCadaFrutaToolStripMenuItem.Click += new System.EventHandler(this.verTodasLasFrutasYLaCantidadTotalDeAlumnosQueLeGustaCadaFrutaToolStripMenuItem_Click);
             // 
             // frmPrincipal
             // 

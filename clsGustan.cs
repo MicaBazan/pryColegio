@@ -93,5 +93,11 @@ namespace pryColegio
             }
         }
 
+        public void sumar(DataGridView dgv)
+        {
+            dgv.Rows.Clear();
+
+        }
+
     }
 }
